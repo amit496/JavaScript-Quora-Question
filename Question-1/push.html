@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery | array</title>
+    <style>
+        * {
+            background: #212529;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="asset/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var arr = [1, 34, 56, 45, 77];
+            console.table(arr);
+
+            // add one element
+            arr.push(3);
+            console.table(arr);
+
+
+
+            var arr = [1, 34, 56, 45, 77];
+            console.table(arr);
+
+            // add one or one more element
+            arr.push(3, 'RTL');
+            console.table(arr);
+        });
+    </script>
+</body>
+
+</html>
